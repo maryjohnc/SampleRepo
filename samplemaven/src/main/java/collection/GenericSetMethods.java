@@ -25,7 +25,34 @@ public class GenericSetMethods {
 		//addAll()
 		s.addAll(a);
 		System.out.println(s);
-
+		
+		//contains
+		System.out.println(s.contains("blue"));
+		System.out.println(s.contains("Blue"));
+		
+		//containsAll()
+		System.out.println(a.containsAll(s));
+		System.out.println(s.containsAll(a));
+		
+		//isEmpty method
+		System.out.println(a.isEmpty());
+				
+		//size method
+		System.out.println(a.size());
+		System.out.println(s.size());
+		
+		//remove
+		s.remove("Red");
+		System.out.println("After remove  : "+s);
+		
+		//removeAll()
+		s.removeAll(a);
+		System.out.println(s);
+		
+		//clear()
+		a.clear();
+		System.out.println(a);
+		
 	}
 
 }
